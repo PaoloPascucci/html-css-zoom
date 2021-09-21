@@ -91,6 +91,7 @@ Main
 }
 
 .center {
+    position: relative;
     margin: 5px;
 }
 
@@ -100,15 +101,22 @@ Main
 }
 
 .Sx i {
+    margin-left: 5px;
+    font-size: 50px;
     color: grey;
 }
 
 .Dx i {
+    margin-right: 5px;
+    font-size: 50px;
     color: #2ebaff;
 }
 
 .microphone {
+    position: absolute;
+    bottom: 3px;
     color: white;
+    background-color: #3a3a3a;
 }
 
 /**/
@@ -121,7 +129,13 @@ Main
     display: flex;
     justify-content: space-between;
     text-align: center;
-    background-color: #3a3a3a;
+    background-color: #212325;
+    position: relative;
+}
+
+footer .fa-angle-up {
+    position: absolute;
+    bottom: 30px;
 }
 
 footer i {
@@ -132,13 +146,17 @@ footer i {
 .col1, .col2 {
     padding: 10px;
     display: inline-block;
-    color: white;
+    color: #dcdcdc;
 }
 
-.col {
+.col, .Col {
     margin: 10px;
     display: inline-block;
-    color: white;
+    color: #dcdcdc;
+}
+
+.Col {
+    margin-left: 40px;
 }
 
 .fa-share-square {
@@ -152,7 +170,7 @@ footer i {
 
 .foot_Dx span {
     height: 100%;
-    background-color: #a5a5a5;
+    background-color: #4a4b4d;
     display: flex;
     padding: 2rem;
     color: red;
