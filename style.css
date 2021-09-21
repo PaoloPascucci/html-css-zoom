@@ -52,3 +52,61 @@ nav .grey {
 /******
 Main
 ********/
+
+.none {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.view {
+    padding: .5rem;
+    width: 141px;
+}
+
+.view, .fullview {
+    margin: 10px;
+    background-color: #3a3a3a;
+    display: inline-block;
+    color: white
+}
+
+.fullview i {
+    padding: .5rem;
+    color: white;
+}
+
+.main_center {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.image_wrap {
+    width: 70%;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.center {
+    margin: 5px;
+}
+
+.Dx, .Sx {
+    align-self: center;
+    color: white;
+}
+
+.Sx i {
+    color: grey;
+}
+
+.Dx i {
+    color: #2ebaff;
+}
+
+.microphone {
+    color: white;
+}
